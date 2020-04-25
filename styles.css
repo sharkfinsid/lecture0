@@ -1,0 +1,14 @@
+p {
+    color: lightcoral;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+div {
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px; /*outside the div box*/
+    padding: 20px; /*within the div*/
+}
