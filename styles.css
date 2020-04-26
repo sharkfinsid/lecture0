@@ -12,3 +12,12 @@ div {
     margin: 50px; /*outside the div box*/
     padding: 20px; /*within the div*/
 }
+
+table {
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
