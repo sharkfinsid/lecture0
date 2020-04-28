@@ -4,35 +4,39 @@
         <title>My Webpage!</title>
         <style>
             h1 {
-                color:aquamarine;
                 text-align: center;
             }
         </style>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div>
+        <div id="top">
             <h1>Hello World!</h1>
         </div>
         
-        <p>This is my first paragraph, it is a nice paragraph and I am happy with it</p>
-        <p>This is my second paragraph. I am happy with it but still not too overjoyed</p>
-        <table width=100%>
-            <tr>
-                <th width=15%>Tools</th>
-                <th>News Feed</th>
-                <th width=15%>Activity Pane</th>
-            </tr>
-            <tr>
-                <td width=15%>Your Profile</td>
-                <td>Friends</td>
-                <td width=15%>Help</td>
-            </tr>
-            <tr>
-                <td width=15%>Home</td>
-                <td>Home2</td>
-                <td width=15%>Home3</td>
-            </tr>
-        </table>
+        <div id="middle">
+            <p>This is my first paragraph, it is a nice paragraph and I am happy with it</p>
+            <p>This is my second paragraph. I am happy with it but still not too overjoyed</p>
+            <table width=100%>
+                <tr>
+                    <th class="left">Tools</th>
+                    <th class="centre">News Feed</th>
+                    <th class="right">Activity Pane</th>
+                </tr>
+                <tr>
+                    <td class="left">Your Profile</td>
+                    <td class="centre">Friends</td>
+                    <td class="right">Help</td>
+                </tr>
+                <tr>
+                    <td class="left">Home</td>
+                    <td class="centre">Home2</td>
+                    <td class="right"></td>Home3</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="bottom"></div>
+       
     </body>
 </html>
